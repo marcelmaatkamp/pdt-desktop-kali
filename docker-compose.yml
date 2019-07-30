@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+ kali:
+  image: kalilinux/kali-linux-docker:latest
+  cap_add:
+    - NET_ADMIN
+  stdin_open: true
+  tty: true
